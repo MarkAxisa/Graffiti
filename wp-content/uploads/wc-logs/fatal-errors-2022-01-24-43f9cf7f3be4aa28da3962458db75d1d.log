@@ -1,0 +1,63 @@
+2022-01-24T17:18:41+00:00 CRITICAL Uncaught Error: Object of class WP_Term could not be converted to string in C:\xampp\htdocs\WP\wp-content\themes\kadence-child\functions.php:38
+Stack trace:
+#0 C:\xampp\htdocs\WP\wp-includes\class-wp-hook.php(303): my_product_cat('')
+#1 C:\xampp\htdocs\WP\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\WP\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\WP\wp-settings.php(578): do_action('init')
+#4 C:\xampp\htdocs\WP\wp-config.php(102): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\WP\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\WP\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\WP\index.php(17): require('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\WP\wp-content\themes\kadence-child\functions.php on line 38
+
+2022-01-24T17:19:22+00:00 CRITICAL Uncaught Error: Object of class WP_Term could not be converted to string in C:\xampp\htdocs\WP\wp-content\themes\kadence-child\functions.php:38
+Stack trace:
+#0 C:\xampp\htdocs\WP\wp-includes\class-wp-hook.php(303): my_product_cat('')
+#1 C:\xampp\htdocs\WP\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\WP\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\WP\wp-settings.php(578): do_action('init')
+#4 C:\xampp\htdocs\WP\wp-config.php(102): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\WP\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\WP\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\WP\wp-content\themes\kadence-child\functions.php on line 38
+
+2022-01-24T17:20:01+00:00 CRITICAL Uncaught Error: Object of class WP_Term could not be converted to string in C:\xampp\htdocs\WP\wp-content\themes\kadence-child\functions.php:38
+Stack trace:
+#0 C:\xampp\htdocs\WP\wp-includes\class-wp-hook.php(303): my_product_cat('')
+#1 C:\xampp\htdocs\WP\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\WP\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\WP\wp-settings.php(578): do_action('init')
+#4 C:\xampp\htdocs\WP\wp-config.php(102): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\WP\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\WP\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\WP\index.php(17): require('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\WP\wp-content\themes\kadence-child\functions.php on line 38
+
+2022-01-24T17:21:21+00:00 CRITICAL Uncaught Error: Object of class WP_Term could not be converted to string in C:\xampp\htdocs\WP\wp-content\themes\kadence-child\functions.php:38
+Stack trace:
+#0 C:\xampp\htdocs\WP\wp-includes\class-wp-hook.php(303): my_product_cat('')
+#1 C:\xampp\htdocs\WP\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\WP\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\WP\wp-settings.php(578): do_action('init')
+#4 C:\xampp\htdocs\WP\wp-config.php(102): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\WP\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\WP\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+  thrown in C:\xampp\htdocs\WP\wp-content\themes\kadence-child\functions.php on line 38
+
+2022-01-24T17:21:27+00:00 CRITICAL Uncaught Error: Cannot use object of type WP_Term as array in C:\xampp\htdocs\WP\wp-content\themes\kadence-child\functions.php:38
+Stack trace:
+#0 C:\xampp\htdocs\WP\wp-includes\class-wp-hook.php(303): my_product_cat('')
+#1 C:\xampp\htdocs\WP\wp-includes\class-wp-hook.php(327): WP_Hook->apply_filters(NULL, Array)
+#2 C:\xampp\htdocs\WP\wp-includes\plugin.php(470): WP_Hook->do_action(Array)
+#3 C:\xampp\htdocs\WP\wp-settings.php(578): do_action('init')
+#4 C:\xampp\htdocs\WP\wp-config.php(102): require_once('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\WP\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\WP\wp-blog-header.php(13): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\WP\index.php(17): require('C:\\xampp\\htdocs...')
+#8 {main}
+  thrown in C:\xampp\htdocs\WP\wp-content\themes\kadence-child\functions.php on line 38
+

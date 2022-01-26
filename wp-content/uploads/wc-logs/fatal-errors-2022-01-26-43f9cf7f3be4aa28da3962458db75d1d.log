@@ -1,0 +1,11 @@
+2022-01-26T08:31:33+00:00 CRITICAL Uncaught Abraham\TwitterOAuth\TwitterOAuthException: {"errors":[{"code":415,"message":"Callback URL not approved for this client application. Approved callback URLs can be adjusted in your application settings"}]} in C:\xampp\htdocs\WP\wp-content\plugins\super-socializer\library\Twitter\src\TwitterOAuth.php:168
+Stack trace:
+#0 C:\xampp\htdocs\WP\wp-content\plugins\super-socializer\super_socializer.php(1725): Abraham\TwitterOAuth\TwitterOAuth->oauth('oauth/request_t...', Array)
+#1 C:\xampp\htdocs\WP\wp-includes\class-wp-hook.php(307): the_champ_connect(Object(WP))
+#2 C:\xampp\htdocs\WP\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#3 C:\xampp\htdocs\WP\wp-includes\plugin.php(522): WP_Hook->do_action(Array)
+#4 C:\xampp\htdocs\WP\wp-includes\class-wp.php(396): do_action_ref_array('parse_request', Array)
+#5 C:\xampp\htdocs\WP\wp-includes\class-wp.php(758): WP->parse_request('')
+#6 C:\xampp\htdocs\WP\wp-includes\functions.php(1310): WP->main('')
+#7 C:\xampp\htdocs\WP\wp-blog-header.php(16 in C:\xampp\htdocs\WP\wp-content\plugins\super-socializer\library\Twitter\src\TwitterOAuth.php on line 168
+
